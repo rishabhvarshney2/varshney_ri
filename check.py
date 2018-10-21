@@ -1,7 +1,9 @@
 n=int(input())
 if n>0:
   print("POSITIVE")
-if n==0:
+elif n==0:
   print("ZERO")
-if n<0:
+elif n<0:
   print("NEGATIVE")
+else:
+    print("INVALID")
